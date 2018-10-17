@@ -1,6 +1,10 @@
-/home/avenuecode/eclipse-workspace/actraining/src/test/java/com/avenuecode/CareerSteps.java
-/home/avenuecode/eclipse-workspace/actraining/src/test/java/com/avenuecode/pages/OpenPositionsPage.java
-/home/avenuecode/eclipse-workspace/actraining/src/test/java/com/avenuecode/TestRunner.java
-/home/avenuecode/eclipse-workspace/actraining/src/test/java/com/avenuecode/NewsSteps.java
-/home/avenuecode/eclipse-workspace/actraining/src/test/java/com/avenuecode/pages/HomePage.java
-/home/avenuecode/eclipse-workspace/actraining/src/test/java/com/avenuecode/pages/CareerPage.java
+/home/avenuecode/avenue-code-training/src/test/java/com/avenuecode/pages/NewsPage.java
+/home/avenuecode/avenue-code-training/src/test/java/com/avenuecode/steps/CareerSteps.java
+/home/avenuecode/avenue-code-training/src/test/java/com/avenuecode/Base.java
+/home/avenuecode/avenue-code-training/src/test/java/com/avenuecode/pages/OpenPositionsPage.java
+/home/avenuecode/avenue-code-training/src/test/java/com/avenuecode/pages/HomePage.java
+/home/avenuecode/avenue-code-training/src/test/java/com/avenuecode/steps/HeaderSteps.java
+/home/avenuecode/avenue-code-training/src/test/java/com/avenuecode/steps/CommonSteps.java
+/home/avenuecode/avenue-code-training/src/test/java/com/avenuecode/steps/NewsSteps.java
+/home/avenuecode/avenue-code-training/src/test/java/com/avenuecode/pages/CareerPage.java
+/home/avenuecode/avenue-code-training/src/test/java/com/avenuecode/TestRunner.java

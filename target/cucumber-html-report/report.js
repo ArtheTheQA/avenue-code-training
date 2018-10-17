@@ -2,7 +2,7 @@ $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.
 formatter.feature({
   "line": 1,
   "name": "As a user I want the Home Page header to display",
-  "description": "the following links: Home, Who We Are, What We Do, Portfolio, Partners, Careers. \nIn Portuguese version it should display: Home, Quem Somos Nos, O Que Fazemos, \nPortfolio, Parceiros, Carreiras.",
+  "description": "the following links: Home, Who We Are, What We Do, Portfolio, Partners, Careers. \nIn Portuguese version it should display: Home, Quem Somos, O Que Fazemos, \nPortfólio, Parceiros, Carreiras.",
   "id": "as-a-user-i-want-the-home-page-header-to-display",
   "keyword": "Feature"
 });
@@ -22,7 +22,7 @@ formatter.match({
   "location": "NewsSteps.i_visit_Avenue_Code_website()"
 });
 formatter.result({
-  "duration": 4533250089,
+  "duration": 4131135085,
   "status": "passed"
 });
 formatter.scenario({
@@ -36,7 +36,7 @@ formatter.scenario({
 formatter.step({
   "line": 11,
   "name": "I scroll the page 80 pixels to bottom",
-  "keyword": "Given "
+  "keyword": "When "
 });
 formatter.step({
   "line": 12,
@@ -53,7 +53,7 @@ formatter.match({
   "location": "HeaderSteps.i_scroll_the_page_pixels_to_bottom(int)"
 });
 formatter.result({
-  "duration": 8052040657,
+  "duration": 8032489243,
   "status": "passed"
 });
 formatter.match({
@@ -66,11 +66,90 @@ formatter.match({
   "location": "HeaderSteps.i_should_be_able_to_see_the_the_following_links_displayed_on_the_header_Home_Who_We_Are_What_We_Do_Portfolio_Partners_Careers(String)"
 });
 formatter.result({
-  "duration": 4532792038,
+  "duration": 4585329621,
   "status": "passed"
 });
 formatter.after({
-  "duration": 75088097,
+  "duration": 70546695,
+  "status": "passed"
+});
+formatter.background({
+  "line": 6,
+  "name": "Visit Avenue Code website",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 7,
+  "name": "I visit Avenue Code website",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "NewsSteps.i_visit_Avenue_Code_website()"
+});
+formatter.result({
+  "duration": 3790808307,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 14,
+  "name": "As a user I should be able to see on Home Page header display the",
+  "description": " following links: Home, Quem Somos, O Que Fazemos, Portfólio, Parceiros, Carreiras.",
+  "id": "as-a-user-i-want-the-home-page-header-to-display;as-a-user-i-should-be-able-to-see-on-home-page-header-display-the",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 16,
+  "name": "I click on Portuguese Website",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 17,
+  "name": "I scroll the page 80 pixels to bottom",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 18,
+  "name": "I should be able to see the the following links displayed on the header: Home, Quem Somos, O Que Fazemos, Portfólio, Parceiros, Carreiras, Contato",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "HeaderSteps.i_click_on_portuguese_website()"
+});
+formatter.result({
+  "duration": 5736687249,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "80",
+      "offset": 18
+    }
+  ],
+  "location": "HeaderSteps.i_scroll_the_page_pixels_to_bottom(int)"
+});
+formatter.result({
+  "duration": 8025573560,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Home, Quem Somos, O Que Fazemos, Portfólio, Parceiros, Carreiras, Contato",
+      "offset": 73
+    }
+  ],
+  "location": "HeaderSteps.i_should_be_able_to_see_the_the_following_links_displayed_on_the_header_Home_Who_We_Are_What_We_Do_Portfolio_Partners_Careers(String)"
+});
+formatter.result({
+  "duration": 4610105510,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 68889630,
   "status": "passed"
 });
 formatter.uri("com/Login.feature");
@@ -108,14 +187,14 @@ formatter.match({
   "location": "NewsSteps.i_visit_Avenue_Code_website()"
 });
 formatter.result({
-  "duration": 3494608633,
+  "duration": 3346119278,
   "status": "passed"
 });
 formatter.match({
   "location": "CareerSteps.i_navigate_to_Open_Positions_page()"
 });
 formatter.result({
-  "duration": 9733338937,
+  "duration": 10170038623,
   "status": "passed"
 });
 formatter.match({
@@ -128,11 +207,11 @@ formatter.match({
   "location": "CareerSteps.i_should_see_at_least_three_job_locations(int)"
 });
 formatter.result({
-  "duration": 4044177968,
+  "duration": 4052626148,
   "status": "passed"
 });
 formatter.after({
-  "duration": 70299759,
+  "duration": 71112259,
   "status": "passed"
 });
 formatter.uri("com/NewsContent.feature");
@@ -159,7 +238,7 @@ formatter.match({
   "location": "NewsSteps.i_visit_Avenue_Code_website()"
 });
 formatter.result({
-  "duration": 3587329755,
+  "duration": 3397698255,
   "status": "passed"
 });
 formatter.scenario({
@@ -185,11 +264,11 @@ formatter.match({
   "location": "NewsSteps.i_should_be_able_to_see_the_top_News(int)"
 });
 formatter.result({
-  "duration": 4030405238,
+  "duration": 4039969769,
   "status": "passed"
 });
 formatter.after({
-  "duration": 69653302,
+  "duration": 68677798,
   "status": "passed"
 });
 formatter.background({
@@ -208,7 +287,7 @@ formatter.match({
   "location": "NewsSteps.i_visit_Avenue_Code_website()"
 });
 formatter.result({
-  "duration": 3863235466,
+  "duration": 5257948088,
   "status": "passed"
 });
 formatter.scenario({
@@ -238,25 +317,26 @@ formatter.match({
   "location": "NewsSteps.i_scroll_to_the_carousel_section()"
 });
 formatter.result({
-  "duration": 8034514357,
+  "duration": 8057721585,
   "status": "passed"
 });
 formatter.match({
   "location": "NewsSteps.i_click_on_a_news_link()"
 });
 formatter.result({
-  "duration": 8056943785,
+  "duration": 8763289606,
   "status": "passed"
 });
 formatter.match({
   "location": "NewsSteps.i_should_be_redirect_to_the_content()"
 });
 formatter.result({
-  "duration": 8195983065,
-  "status": "passed"
+  "duration": 8158977028,
+  "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:86)\n\tat org.junit.Assert.assertTrue(Assert.java:41)\n\tat org.junit.Assert.assertTrue(Assert.java:52)\n\tat com.avenuecode.steps.NewsSteps.i_should_be_redirect_to_the_content(NewsSteps.java:36)\n\tat ✽.Then I should be redirect to the content(com/NewsContent.feature:13)\n",
+  "status": "failed"
 });
 formatter.after({
-  "duration": 80844437,
+  "duration": 71522932,
   "status": "passed"
 });
 formatter.uri("com/NewsDetails.feature");
@@ -283,7 +363,7 @@ formatter.match({
   "location": "NewsSteps.i_visit_Avenue_Code_website()"
 });
 formatter.result({
-  "duration": 3320611088,
+  "duration": 4562272062,
   "status": "passed"
 });
 formatter.scenario({
@@ -303,11 +383,11 @@ formatter.match({
   "location": "NewsSteps.i_should_be_able_to_see_the_latest_news()"
 });
 formatter.result({
-  "duration": 4067080111,
+  "duration": 4070317915,
   "status": "passed"
 });
 formatter.after({
-  "duration": 70092402,
+  "duration": 68877115,
   "status": "passed"
 });
 formatter.background({
@@ -326,7 +406,7 @@ formatter.match({
   "location": "NewsSteps.i_visit_Avenue_Code_website()"
 });
 formatter.result({
-  "duration": 3401773772,
+  "duration": 3363067753,
   "status": "passed"
 });
 formatter.scenario({
@@ -351,18 +431,18 @@ formatter.match({
   "location": "NewsSteps.i_click_on_a_news_link()"
 });
 formatter.result({
-  "duration": 8652432721,
+  "duration": 8415522679,
   "status": "passed"
 });
 formatter.match({
   "location": "NewsSteps.i_should_be_redirect_to_the_content()"
 });
 formatter.result({
-  "duration": 8166645122,
+  "duration": 8173938784,
   "status": "passed"
 });
 formatter.after({
-  "duration": 72810424,
+  "duration": 77466561,
   "status": "passed"
 });
 });

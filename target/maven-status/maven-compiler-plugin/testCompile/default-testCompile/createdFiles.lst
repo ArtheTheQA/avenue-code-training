@@ -1,6 +1,10 @@
-com/avenuecode/NewsSteps.class
+com/avenuecode/steps/NewsSteps.class
+com/avenuecode/pages/NewsPage.class
+com/avenuecode/Base.class
+com/avenuecode/pages/CareerPage.class
+com/avenuecode/steps/CareerSteps.class
+com/avenuecode/steps/CommonSteps.class
+com/avenuecode/steps/HeaderSteps.class
 com/avenuecode/TestRunner.class
 com/avenuecode/pages/HomePage.class
-com/avenuecode/CareerSteps.class
-com/avenuecode/pages/CareerPage.class
 com/avenuecode/pages/OpenPositionsPage.class

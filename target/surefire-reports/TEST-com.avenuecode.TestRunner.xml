@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.avenuecode.TestRunner" time="0.159" tests="8" errors="2" skipped="1" failures="0">
+<testsuite name="com.avenuecode.TestRunner" time="0.446" tests="28" errors="0" skipped="0" failures="2">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
     <property name="java.vm.version" value="25.181-b13"/>
     <property name="user.country.format" value="BR"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/home/avenuecode/eclipse-workspace/actraining"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/avenuecode/avenue-code-training"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/avenuecode/eclipse-workspace/actraining"/>
+    <property name="user.dir" value="/home/avenuecode/avenue-code-training"/>
     <property name="java.runtime.version" value="1.8.0_181-b13"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed"/>
@@ -61,78 +61,49 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="Given I visit Avenue Code website" classname="Scenario: Successfully display job locations" time="0.002"/>
+  <testcase name="Given I visit Avenue Code website" classname="Scenario: As a user I should be able to see on Home Page header display the" time="0.002"/>
+  <testcase name="When I scroll the page 80 pixels to bottom" classname="Scenario: As a user I should be able to see on Home Page header display the" time="0"/>
+  <testcase name="Then I should be able to see the the following links displayed on the header: Home, Who We Are, What We Do, Portfolio, Partners, Careers, Contact" classname="Scenario: As a user I should be able to see on Home Page header display the" time="0"/>
+  <testcase name="Scenario: As a user I should be able to see on Home Page header display the" classname="Scenario: As a user I should be able to see on Home Page header display the" time="0.073"/>
+  <testcase name="Given I visit Avenue Code website" classname="Scenario: As a user I should be able to see on Home Page header display the" time="0"/>
+  <testcase name="Given I click on Portuguese Website" classname="Scenario: As a user I should be able to see on Home Page header display the" time="0"/>
+  <testcase name="When I scroll the page 80 pixels to bottom" classname="Scenario: As a user I should be able to see on Home Page header display the" time="0"/>
+  <testcase name="Then I should be able to see the the following links displayed on the header: Home, Quem Somos, O Que Fazemos, Portfólio, Parceiros, Carreiras, Contato" classname="Scenario: As a user I should be able to see on Home Page header display the" time="0"/>
+  <testcase name="Scenario: As a user I should be able to see on Home Page header display the" classname="Scenario: As a user I should be able to see on Home Page header display the" time="0.071"/>
+  <testcase name="Given I visit Avenue Code website" classname="Scenario: Successfully display job locations" time="0"/>
   <testcase name="When I navigate to Open Positions page" classname="Scenario: Successfully display job locations" time="0"/>
   <testcase name="Then I should see at least 3 job locations" classname="Scenario: Successfully display job locations" time="0"/>
-  <testcase name="Scenario: Successfully display job locations" classname="Scenario: Successfully display job locations" time="0.146"/>
-  <testcase name="Given I visit Avenue Code website" classname="Scenario: As a user I want to see footer to display the top 3 News" time="0"/>
-  <testcase name="When I navigate to Open Positionss page" classname="Scenario: As a user I want to see footer to display the top 3 News" time="0.005">
-    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Careers&quot;}&#10;  (Session info: chrome=69.0.3497.100)&#10;  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.15.0-36-generic x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 41 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;&#10;System info: host: &apos;ac-LP0020&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-36-generic&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:37603}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac), userDataDir=/tmp/.org.chromium.Chromium.d8eE0F}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=69.0.3497.100, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 52c142008b202b44c90fa45ed81d5aec&#10;*** Element info: {Using=link text, value=Careers}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Careers"}
-  (Session info: chrome=69.0.3497.100)
-  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.15.0-36-generic x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 41 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'ac-LP0020', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-36-generic', java.version: '1.8.0_181'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:37603}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac), userDataDir=/tmp/.org.chromium.Chromium.d8eE0F}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=69.0.3497.100, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 52c142008b202b44c90fa45ed81d5aec
-*** Element info: {Using=link text, value=Careers}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy15.click(Unknown Source)
-	at com.avenuecode.pages.HomePage.navigateToCareersPage(HomePage.java:15)
-	at com.avenuecode.NewsSteps.i_navigate_to_Open_Positionss_page(NewsSteps.java:37)
-	at ✽.When I navigate to Open Positionss page(com/News.feature:7)
-</error>
-    <system-out><![CDATA[
-  Background: Visit Avenue Code website &amp#27;[90m# com/News.feature:3&amp#27;[0m
-    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI visit Avenue Code website&amp#27;[0m   &amp#27;[90m# CareerSteps.i_visit_Avenue_Code_website()&amp#27;[0m
-]]></system-out>
+  <testcase name="Scenario: Successfully display job locations" classname="Scenario: Successfully display job locations" time="0.073"/>
+  <testcase name="Given I visit Avenue Code website" classname="Scenario: As a user I should be able to see footer to display the top 3 News" time="0"/>
+  <testcase name="Then I should be able to see the top 3 News" classname="Scenario: As a user I should be able to see footer to display the top 3 News" time="0"/>
+  <testcase name="Scenario: As a user I should be able to see footer to display the top 3 News" classname="Scenario: As a user I should be able to see footer to display the top 3 News" time="0.07"/>
+  <testcase name="Given I visit Avenue Code website" classname="Scenario: As a user I should be able to visualize the news content" time="0"/>
+  <testcase name="Given I scroll to the Carousel Section" classname="Scenario: As a user I should be able to visualize the news content" time="0"/>
+  <testcase name="When I click on a news link" classname="Scenario: As a user I should be able to visualize the news content" time="0"/>
+  <testcase name="Then I should be redirect to the content" classname="Scenario: As a user I should be able to visualize the news content" time="0.004">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.avenuecode.steps.NewsSteps.i_should_be_redirect_to_the_content(NewsSteps.java:36)
+	at ✽.Then I should be redirect to the content(com/NewsContent.feature:13)
+</failure>
+    <system-out><![CDATA[Avenue Code Ranks in Bay Areas 100 Fastest Growing Companies List]]></system-out>
   </testcase>
-  <testcase name="Scenario: As a user I want to see footer to display the top 3 News" classname="Scenario: As a user I want to see footer to display the top 3 News" time="0.006">
-    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Careers&quot;}&#10;  (Session info: chrome=69.0.3497.100)&#10;  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.15.0-36-generic x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 41 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;&#10;System info: host: &apos;ac-LP0020&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-36-generic&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:37603}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac), userDataDir=/tmp/.org.chromium.Chromium.d8eE0F}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=69.0.3497.100, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 52c142008b202b44c90fa45ed81d5aec&#10;*** Element info: {Using=link text, value=Careers}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Careers"}
-  (Session info: chrome=69.0.3497.100)
-  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.15.0-36-generic x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 41 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'ac-LP0020', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-36-generic', java.version: '1.8.0_181'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:37603}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac), userDataDir=/tmp/.org.chromium.Chromium.d8eE0F}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=69.0.3497.100, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 52c142008b202b44c90fa45ed81d5aec
-*** Element info: {Using=link text, value=Careers}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy15.click(Unknown Source)
-	at com.avenuecode.pages.HomePage.navigateToCareersPage(HomePage.java:15)
-	at com.avenuecode.NewsSteps.i_navigate_to_Open_Positionss_page(NewsSteps.java:37)
-	at ✽.When I navigate to Open Positionss page(com/News.feature:7)
-</error>
+  <testcase name="Scenario: As a user I should be able to visualize the news content" classname="Scenario: As a user I should be able to visualize the news content" time="0.005">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.avenuecode.steps.NewsSteps.i_should_be_redirect_to_the_content(NewsSteps.java:36)
+	at ✽.Then I should be redirect to the content(com/NewsContent.feature:13)
+</failure>
   </testcase>
-  <testcase name="Then I should be able to see the top 3 News" classname="Scenario: As a user I want to see footer to display the top 3 News" time="0">
-    <skipped/>
-  </testcase>
+  <testcase name="Given I visit Avenue Code website" classname="Scenario: As a user I should be able to see footer to display the Latest News" time="0"/>
+  <testcase name="Then I should be able to see the Latest News" classname="Scenario: As a user I should be able to see footer to display the Latest News" time="0"/>
+  <testcase name="Scenario: As a user I should be able to see footer to display the Latest News" classname="Scenario: As a user I should be able to see footer to display the Latest News" time="0.07"/>
+  <testcase name="Given I visit Avenue Code website" classname="Scenario: As a user I should be able to see the Events page displaying the modal with the event details" time="0"/>
+  <testcase name="Given I click on a news link" classname="Scenario: As a user I should be able to see the Events page displaying the modal with the event details" time="0"/>
+  <testcase name="Then I should be redirect to the content" classname="Scenario: As a user I should be able to see the Events page displaying the modal with the event details" time="0"/>
+  <testcase name="Scenario: As a user I should be able to see the Events page displaying the modal with the event details" classname="Scenario: As a user I should be able to see the Events page displaying the modal with the event details" time="0.078"/>
 </testsuite>

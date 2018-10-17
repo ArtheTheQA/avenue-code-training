@@ -13,6 +13,9 @@ public class HomePage extends Base {
 	
 	@FindBy(linkText = "Careers")
 	private WebElement careerLink;
+
+	@FindBy(linkText = "PT")
+	private WebElement portugueseWebsiteLink;
 	
 	@FindBy(xpath = "//*[@id=\"sub-footer-carousel\"]")
 	private WebElement carouselSection;
@@ -49,6 +52,11 @@ public class HomePage extends Base {
 	public void navigateToCareersPage() throws Exception{
 		Thread.sleep(4000);
 		careerLink.click();
+	}
+
+	public void navigateToPortugueseWebsite() throws Exception{
+		Thread.sleep(4000);
+		portugueseWebsiteLink.click();
 	}
 	
 	public void scrollToTheCarouselSection() throws Exception{
@@ -88,7 +96,7 @@ public class HomePage extends Base {
 		{
 			System.out.print(array1[i]);
 			System.out.print(array2[i]);
-			if (array1[i] != array2[i])
+			if (array1[i].contains(array2[i]))
 			{
 				System.out.print("ok");
 			}

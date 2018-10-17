@@ -10,6 +10,11 @@ public class HeaderSteps extends CommonSteps {
 		homePage.scrollToSeeTheHeader(pixelsToScroll);
 	}
 
+	@Given("^I click on Portuguese Website$")
+	public void i_click_on_portuguese_website() throws Throwable {
+		homePage.navigateToPortugueseWebsite();
+	}
+
 	@Then("^I should be able to see the the following links displayed on the header: ([^/:]+$)$")
 	public void i_should_be_able_to_see_the_the_following_links_displayed_on_the_header_Home_Who_We_Are_What_We_Do_Portfolio_Partners_Careers(String headerStringContent) throws Throwable {
 		assertTrue(homePage.compareArraysString(headerStringContent.split(", "), homePage.getHeaderItems()));
