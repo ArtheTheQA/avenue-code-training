@@ -1,20 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.avenuecode.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 28, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 123.618 sec <<< FAILURE! - in com.avenuecode.TestRunner
-Then I should be redirect to the content(Scenario: As a user I should be able to visualize the news content)  Time elapsed: 0.004 sec  <<< FAILURE!
-java.lang.AssertionError: null
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at com.avenuecode.steps.NewsSteps.i_should_be_redirect_to_the_content(NewsSteps.java:36)
-	at ✽.Then I should be redirect to the content(com/NewsContent.feature:13)
-
-Scenario: As a user I should be able to visualize the news content  Time elapsed: 0.005 sec  <<< FAILURE!
-java.lang.AssertionError: null
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at com.avenuecode.steps.NewsSteps.i_should_be_redirect_to_the_content(NewsSteps.java:36)
-	at ✽.Then I should be redirect to the content(com/NewsContent.feature:13)
-
+Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 123.719 sec - in com.avenuecode.TestRunner

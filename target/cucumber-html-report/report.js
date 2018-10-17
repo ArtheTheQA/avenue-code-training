@@ -22,7 +22,7 @@ formatter.match({
   "location": "NewsSteps.i_visit_Avenue_Code_website()"
 });
 formatter.result({
-  "duration": 4131135085,
+  "duration": 4185251387,
   "status": "passed"
 });
 formatter.scenario({
@@ -53,7 +53,7 @@ formatter.match({
   "location": "HeaderSteps.i_scroll_the_page_pixels_to_bottom(int)"
 });
 formatter.result({
-  "duration": 8032489243,
+  "duration": 8037034280,
   "status": "passed"
 });
 formatter.match({
@@ -66,11 +66,11 @@ formatter.match({
   "location": "HeaderSteps.i_should_be_able_to_see_the_the_following_links_displayed_on_the_header_Home_Who_We_Are_What_We_Do_Portfolio_Partners_Careers(String)"
 });
 formatter.result({
-  "duration": 4585329621,
+  "duration": 4553179045,
   "status": "passed"
 });
 formatter.after({
-  "duration": 70546695,
+  "duration": 73402395,
   "status": "passed"
 });
 formatter.background({
@@ -89,7 +89,7 @@ formatter.match({
   "location": "NewsSteps.i_visit_Avenue_Code_website()"
 });
 formatter.result({
-  "duration": 3790808307,
+  "duration": 3705254235,
   "status": "passed"
 });
 formatter.scenario({
@@ -119,7 +119,7 @@ formatter.match({
   "location": "HeaderSteps.i_click_on_portuguese_website()"
 });
 formatter.result({
-  "duration": 5736687249,
+  "duration": 6956478399,
   "status": "passed"
 });
 formatter.match({
@@ -132,7 +132,7 @@ formatter.match({
   "location": "HeaderSteps.i_scroll_the_page_pixels_to_bottom(int)"
 });
 formatter.result({
-  "duration": 8025573560,
+  "duration": 8022700764,
   "status": "passed"
 });
 formatter.match({
@@ -145,11 +145,11 @@ formatter.match({
   "location": "HeaderSteps.i_should_be_able_to_see_the_the_following_links_displayed_on_the_header_Home_Who_We_Are_What_We_Do_Portfolio_Partners_Careers(String)"
 });
 formatter.result({
-  "duration": 4610105510,
+  "duration": 4507823052,
   "status": "passed"
 });
 formatter.after({
-  "duration": 68889630,
+  "duration": 67877421,
   "status": "passed"
 });
 formatter.uri("com/Login.feature");
@@ -187,14 +187,14 @@ formatter.match({
   "location": "NewsSteps.i_visit_Avenue_Code_website()"
 });
 formatter.result({
-  "duration": 3346119278,
+  "duration": 7311973725,
   "status": "passed"
 });
 formatter.match({
   "location": "CareerSteps.i_navigate_to_Open_Positions_page()"
 });
 formatter.result({
-  "duration": 10170038623,
+  "duration": 10326151248,
   "status": "passed"
 });
 formatter.match({
@@ -207,11 +207,11 @@ formatter.match({
   "location": "CareerSteps.i_should_see_at_least_three_job_locations(int)"
 });
 formatter.result({
-  "duration": 4052626148,
+  "duration": 4048561621,
   "status": "passed"
 });
 formatter.after({
-  "duration": 71112259,
+  "duration": 69362014,
   "status": "passed"
 });
 formatter.uri("com/NewsContent.feature");
@@ -238,7 +238,7 @@ formatter.match({
   "location": "NewsSteps.i_visit_Avenue_Code_website()"
 });
 formatter.result({
-  "duration": 3397698255,
+  "duration": 3394405343,
   "status": "passed"
 });
 formatter.scenario({
@@ -264,11 +264,11 @@ formatter.match({
   "location": "NewsSteps.i_should_be_able_to_see_the_top_News(int)"
 });
 formatter.result({
-  "duration": 4039969769,
+  "duration": 4039204366,
   "status": "passed"
 });
 formatter.after({
-  "duration": 68677798,
+  "duration": 67840863,
   "status": "passed"
 });
 formatter.background({
@@ -287,7 +287,7 @@ formatter.match({
   "location": "NewsSteps.i_visit_Avenue_Code_website()"
 });
 formatter.result({
-  "duration": 5257948088,
+  "duration": 3513057879,
   "status": "passed"
 });
 formatter.scenario({
@@ -317,26 +317,25 @@ formatter.match({
   "location": "NewsSteps.i_scroll_to_the_carousel_section()"
 });
 formatter.result({
-  "duration": 8057721585,
+  "duration": 8060336251,
   "status": "passed"
 });
 formatter.match({
   "location": "NewsSteps.i_click_on_a_news_link()"
 });
 formatter.result({
-  "duration": 8763289606,
+  "duration": 6653405927,
   "status": "passed"
 });
 formatter.match({
   "location": "NewsSteps.i_should_be_redirect_to_the_content()"
 });
 formatter.result({
-  "duration": 8158977028,
-  "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:86)\n\tat org.junit.Assert.assertTrue(Assert.java:41)\n\tat org.junit.Assert.assertTrue(Assert.java:52)\n\tat com.avenuecode.steps.NewsSteps.i_should_be_redirect_to_the_content(NewsSteps.java:36)\n\tat ✽.Then I should be redirect to the content(com/NewsContent.feature:13)\n",
-  "status": "failed"
+  "duration": 8148023198,
+  "status": "passed"
 });
 formatter.after({
-  "duration": 71522932,
+  "duration": 69662321,
   "status": "passed"
 });
 formatter.uri("com/NewsDetails.feature");
@@ -363,7 +362,7 @@ formatter.match({
   "location": "NewsSteps.i_visit_Avenue_Code_website()"
 });
 formatter.result({
-  "duration": 4562272062,
+  "duration": 3885064403,
   "status": "passed"
 });
 formatter.scenario({
@@ -383,11 +382,11 @@ formatter.match({
   "location": "NewsSteps.i_should_be_able_to_see_the_latest_news()"
 });
 formatter.result({
-  "duration": 4070317915,
+  "duration": 4060293466,
   "status": "passed"
 });
 formatter.after({
-  "duration": 68877115,
+  "duration": 69574365,
   "status": "passed"
 });
 formatter.background({
@@ -406,7 +405,7 @@ formatter.match({
   "location": "NewsSteps.i_visit_Avenue_Code_website()"
 });
 formatter.result({
-  "duration": 3363067753,
+  "duration": 3480456275,
   "status": "passed"
 });
 formatter.scenario({
@@ -431,18 +430,18 @@ formatter.match({
   "location": "NewsSteps.i_click_on_a_news_link()"
 });
 formatter.result({
-  "duration": 8415522679,
+  "duration": 7802888055,
   "status": "passed"
 });
 formatter.match({
   "location": "NewsSteps.i_should_be_redirect_to_the_content()"
 });
 formatter.result({
-  "duration": 8173938784,
+  "duration": 8171713254,
   "status": "passed"
 });
 formatter.after({
-  "duration": 77466561,
+  "duration": 70371990,
   "status": "passed"
 });
 });
