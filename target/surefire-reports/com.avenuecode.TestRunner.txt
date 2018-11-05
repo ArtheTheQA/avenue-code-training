@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.avenuecode.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 119.084 sec - in com.avenuecode.TestRunner
+Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 117.31 sec - in com.avenuecode.TestRunner
