@@ -1,3 +1,6 @@
 language: java
 
+script: mvn compile
 script: mvn clean test
+
+sudo: enabled

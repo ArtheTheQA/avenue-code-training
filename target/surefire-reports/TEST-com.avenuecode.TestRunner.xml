@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.avenuecode.TestRunner" time="0.496" tests="28" errors="0" skipped="0" failures="0">
+<testsuite name="com.avenuecode.TestRunner" time="0.499" tests="28" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
@@ -42,7 +42,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher package"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="user.language.format" value="pt"/>
@@ -61,32 +61,32 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="Given I visit Avenue Code website" classname="Scenario: As a user I should be able to see on Home Page header display the" time="0.001"/>
+  <testcase name="Given I visit Avenue Code website" classname="Scenario: As a user I should be able to see on Home Page header display the" time="0.002"/>
   <testcase name="When I scroll the page 80 pixels to bottom" classname="Scenario: As a user I should be able to see on Home Page header display the" time="0"/>
   <testcase name="Then I should be able to see the the following links displayed on the header: Home, Who We Are, What We Do, Portfolio, Partners, Careers, Contact" classname="Scenario: As a user I should be able to see on Home Page header display the" time="0"/>
-  <testcase name="Scenario: As a user I should be able to see on Home Page header display the" classname="Scenario: As a user I should be able to see on Home Page header display the" time="0.071"/>
+  <testcase name="Scenario: As a user I should be able to see on Home Page header display the" classname="Scenario: As a user I should be able to see on Home Page header display the" time="0.072"/>
   <testcase name="Given I visit Avenue Code website" classname="Scenario: As a user I should be able to see on Home Page header display the" time="0"/>
   <testcase name="Given I click on Portuguese Website" classname="Scenario: As a user I should be able to see on Home Page header display the" time="0"/>
   <testcase name="When I scroll the page 80 pixels to bottom" classname="Scenario: As a user I should be able to see on Home Page header display the" time="0"/>
-  <testcase name="Then I should be able to see the the following links displayed on the header: Home, Quem Somos, O Que Fazemos, Portfólio, Parceiros, Carreiras, Contato" classname="Scenario: As a user I should be able to see on Home Page header display the" time="0.001"/>
-  <testcase name="Scenario: As a user I should be able to see on Home Page header display the" classname="Scenario: As a user I should be able to see on Home Page header display the" time="0.072"/>
+  <testcase name="Then I should be able to see the the following links displayed on the header: Home, Quem Somos, O Que Fazemos, Portfólio, Parceiros, Carreiras, Contato" classname="Scenario: As a user I should be able to see on Home Page header display the" time="0"/>
+  <testcase name="Scenario: As a user I should be able to see on Home Page header display the" classname="Scenario: As a user I should be able to see on Home Page header display the" time="0.07"/>
   <testcase name="Given I visit Avenue Code website" classname="Scenario: Successfully display job locations" time="0"/>
   <testcase name="When I navigate to Open Positions page" classname="Scenario: Successfully display job locations" time="0"/>
   <testcase name="Then I should see at least 3 job locations" classname="Scenario: Successfully display job locations" time="0"/>
-  <testcase name="Scenario: Successfully display job locations" classname="Scenario: Successfully display job locations" time="0.07"/>
+  <testcase name="Scenario: Successfully display job locations" classname="Scenario: Successfully display job locations" time="0.069"/>
   <testcase name="Given I visit Avenue Code website" classname="Scenario: As a user I should be able to see footer to display the top 3 News" time="0"/>
   <testcase name="Then I should be able to see the top 3 News" classname="Scenario: As a user I should be able to see footer to display the top 3 News" time="0"/>
-  <testcase name="Scenario: As a user I should be able to see footer to display the top 3 News" classname="Scenario: As a user I should be able to see footer to display the top 3 News" time="0.071"/>
+  <testcase name="Scenario: As a user I should be able to see footer to display the top 3 News" classname="Scenario: As a user I should be able to see footer to display the top 3 News" time="0.07"/>
   <testcase name="Given I visit Avenue Code website" classname="Scenario: As a user I should be able to visualize the news content" time="0"/>
   <testcase name="Given I scroll to the Carousel Section" classname="Scenario: As a user I should be able to visualize the news content" time="0"/>
   <testcase name="When I click on a news link" classname="Scenario: As a user I should be able to visualize the news content" time="0"/>
   <testcase name="Then I should be redirect to the content" classname="Scenario: As a user I should be able to visualize the news content" time="0"/>
-  <testcase name="Scenario: As a user I should be able to visualize the news content" classname="Scenario: As a user I should be able to visualize the news content" time="0.069"/>
+  <testcase name="Scenario: As a user I should be able to visualize the news content" classname="Scenario: As a user I should be able to visualize the news content" time="0.076"/>
   <testcase name="Given I visit Avenue Code website" classname="Scenario: As a user I should be able to see footer to display the Latest News" time="0"/>
   <testcase name="Then I should be able to see the Latest News" classname="Scenario: As a user I should be able to see footer to display the Latest News" time="0"/>
   <testcase name="Scenario: As a user I should be able to see footer to display the Latest News" classname="Scenario: As a user I should be able to see footer to display the Latest News" time="0.07"/>
   <testcase name="Given I visit Avenue Code website" classname="Scenario: As a user I should be able to see the Events page displaying the modal with the event details" time="0"/>
   <testcase name="Given I click on a news link" classname="Scenario: As a user I should be able to see the Events page displaying the modal with the event details" time="0"/>
   <testcase name="Then I should be redirect to the content" classname="Scenario: As a user I should be able to see the Events page displaying the modal with the event details" time="0"/>
-  <testcase name="Scenario: As a user I should be able to see the Events page displaying the modal with the event details" classname="Scenario: As a user I should be able to see the Events page displaying the modal with the event details" time="0.071"/>
+  <testcase name="Scenario: As a user I should be able to see the Events page displaying the modal with the event details" classname="Scenario: As a user I should be able to see the Events page displaying the modal with the event details" time="0.07"/>
 </testsuite>
