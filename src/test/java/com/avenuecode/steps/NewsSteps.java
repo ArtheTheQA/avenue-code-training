@@ -40,10 +40,5 @@ public class NewsSteps extends CommonSteps {
 	public void i_should_be_able_to_see_the_latest_news() throws Throwable {
 	    assertTrue(homePage.getLatestH1NewsText().contains("Latest News")); // use regex please
 	}
-	
-    @After
-    public void turnDown() {
-    	this.driver = quitDriver();
-    }
 
 }

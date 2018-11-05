@@ -1,6 +1,7 @@
 package com.avenuecode.steps;
 
 import cucumber.api.java.en.When;
+import cucumber.api.java.After;
 import cucumber.api.java.en.Then;
 
 import static org.hamcrest.MatcherAssert.assertThat; 
@@ -18,4 +19,9 @@ public class CareerSteps extends CommonSteps {
 	public void i_should_see_at_least_three_job_locations(int expected_quatity) throws Throwable {
 	    assertThat(openPositionsPage.cityTotalCount(), greaterThanOrEqualTo(expected_quatity));
 	}
+
+	@After
+    public void turnDown() {
+    	this.driver = quitDriver();
+    }
 }
