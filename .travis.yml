@@ -1,8 +1,6 @@
 language: java
 
-script: mvn compile
-script: mvn clean test
-script: mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+script: mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V && mvn compile && mvn clean test
 
 deploy:
   skip_cleanup: true
